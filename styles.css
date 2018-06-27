@@ -1,0 +1,57 @@
+* {
+    font-family: 'Bad Script', cursive;
+}
+
+body {
+    text-align: center;
+    background-image: url('./bgcd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0.1em;
+}
+
+h2 {
+    margin: 0.9em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
+td:hover {
+     
+}
+
+input[type=number] {
+    width: 6em;
+    font-size: 17px;
+}
+
+input[type=submit] {
+    background-color: burlywood;
+}

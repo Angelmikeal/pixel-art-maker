@@ -3,6 +3,7 @@ $('#sizePicker').submit(function (event) {
     makeGrid();
     colorChange();
     colorReset();
+    clearGrid();
 
 }
 );
@@ -46,3 +47,14 @@ function colorReset() {
         $(this).css('background-color', '#fff');
     })
 }
+
+
+//grid removal system 
+
+$('.clearGrid').click(function(event){
+    //access grid
+        let table = $('#pixelCanvas');
+        event.preventDefault();
+    //remove grid
+        table.children().remove();
+   })

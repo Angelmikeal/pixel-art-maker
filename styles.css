@@ -55,3 +55,11 @@ input[type=number] {
 input[type=submit] {
     background-color: burlywood;
 }
+
+.clearGrid{
+    margin: auto;
+    margin-top: 10px;
+    width: 70px;
+    font-size: 15px;
+    background-color: burlywood;
+}
